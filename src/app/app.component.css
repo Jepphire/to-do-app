@@ -1,7 +1,21 @@
+mat-sidenav-container {
+  height: calc(100% - 64px);
+}
+
 .app-title {
   margin-left: 2em;
 }
 
-mat-sidenav-container {
-  height: calc(100% - 64px);
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.nav-links-item {
+  padding-right: 2em;
+  font-size: .8em;
+  text-decoration: none;
+  color: inherit;
 }

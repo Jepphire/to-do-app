@@ -11,6 +11,9 @@ import { TodoDetailComponent } from './todo/todo-detail/todo-detail.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './shared/modules/material/material.module';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { TodosComponent } from './todos/todos.component';
+import { TodoEditComponent } from './todos/todo-edit/todo-edit.component';
+import { TodoNewComponent } from './todos/todo-new/todo-new.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +23,9 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     TodoListComponent,
     TodoDetailComponent,
     SidebarComponent,
+    TodosComponent,
+    TodoEditComponent,
+    TodoNewComponent,
   ],
   imports: [
     BrowserModule,
