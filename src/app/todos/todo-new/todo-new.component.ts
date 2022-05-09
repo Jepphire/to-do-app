@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormControl, FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-todo-new',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TodoNewComponent implements OnInit {
 
+  todoNewForm: FormGroup;
+
   constructor() { }
 
   ngOnInit(): void {
+    this.todoNewForm = new FormGroup({
+      'list-name': new FormControl(null)
+    })
   }
+
 
 }
